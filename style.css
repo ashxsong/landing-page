@@ -7,7 +7,7 @@ body {
 }
 
 .hero-text {
-  background-color: #1e2b3a;
+  background-color: #1f2937;
   color: white;
   padding: 0px 150px 100px 150px;
 }
@@ -20,19 +20,20 @@ body {
 }
 
 #header-logo {
-  font-size: 18px;
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 .links {
   display: flex;
-  gap: 24px;
-  font-size: 14px;
+  gap: 36px;
+  font-size: 18px;
   font-weight: 100;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: #e5e7eb;
 }
 
 .hero-body {
@@ -44,20 +45,24 @@ a {
 }
 
 .hero-body-text {
-  max-width: 400px;
+  max-width: 450px;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 #hero-body-title {
-  font-size: 36px;
+  font-size: 48px;
   margin-bottom: -8px;
+  color: #f9faf8;
+  font-weight: 800;
 }
 
 #hero-image {
-  max-height: 200px;
+  max-height: 225px;
 }
 
 #header-sign-up {
-  background-color: #0096ff;
+  background-color: #3882f6;
   padding: 4px 18px;
   border: none;
   border-radius: 4px;
@@ -73,8 +78,10 @@ a {
 }
 
 #random-title {
-  font-size: 24px;
+  font-size: 36px;
   padding: 8px 0px;
+  font-weight: 800;
+  color: #1f2937;
 }
 
 .images-and-texts {
@@ -95,13 +102,13 @@ a {
 .random-image {
   max-height: 100px;
   border-style: solid;
-  border-color: #0096ff;
+  border-color: #3882f6;
   border-width: 3px;
   border-radius: 8px;
 }
 
 .quote {
-  background-color: #d3d3d3;
+  background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -109,14 +116,14 @@ a {
 }
 
 #quote-text {
-  font-size: 24px;
-  font-weight: 100;
-  color: #3b3b3b;
-  max-width: 550px;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+  max-width: 825px;
 }
 
 #quote-author {
-  margin: -18px 0px 0px 300px;
+  margin: -18px 0px 0px 550px;
   font-size: 18px;
   text-align: right;
 }
@@ -125,7 +132,7 @@ a {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #0096ff;
+  background-color: #3882f6;
   margin: 64px 200px;
   border-radius: 8px;
   color: white;
@@ -143,7 +150,7 @@ a {
 }
 
 #sign-up-button {
-  background-color: #0096ff;
+  background-color: #3882f6;
   padding: 4px 18px;
   border-style: solid;
   border-color: white;
@@ -153,7 +160,7 @@ a {
 }
 
 .footer {
-  background-color: #1e2b3a;
+  background-color: #1f2937;
   color: white;
   padding: 24px;
   text-align: center;
