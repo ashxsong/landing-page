@@ -151,3 +151,12 @@ a {
   color: white;
   font-weight: 600;
 }
+
+.footer {
+  background-color: #1e2b3a;
+  color: white;
+  padding: 24px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 12px;
+}
