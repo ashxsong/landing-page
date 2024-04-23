@@ -9,8 +9,7 @@ body {
 .hero-text {
   background-color: #1e2b3a;
   color: white;
-  padding: 0px 150px;
-  padding-bottom: 64px;
+  padding: 0px 150px 100px 150px;
 }
 
 .header {
@@ -70,6 +69,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 8px 0px 64px 0px;
 }
 
 #random-title {
@@ -98,4 +98,25 @@ a {
   border-color: #0096ff;
   border-width: 3px;
   border-radius: 8px;
+}
+
+.quote {
+  background-color: #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 0px 64px 0px;
+}
+
+#quote-text {
+  font-size: 24px;
+  font-weight: 100;
+  color: #3b3b3b;
+  max-width: 550px;
+}
+
+#quote-author {
+  margin: -18px 0px 0px 300px;
+  font-size: 18px;
+  text-align: right;
 }
